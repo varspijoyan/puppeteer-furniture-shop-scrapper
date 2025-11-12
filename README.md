@@ -1,0 +1,1 @@
+# puppeteer-furniture-shop-scrapper
