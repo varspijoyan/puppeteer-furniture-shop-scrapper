@@ -8,10 +8,10 @@ async function clickOnLink(page, selector) {
   await page.waitForSelector(selector, { visible: true });
   await page.evaluate((sel) => {
     const el = document.querySelector(sel);
-    if(el) el.scrollIntoView({behavior: "smooth"});
+    if (el) el.scrollIntoView({ behavior: "smooth" });
   }, selector);
   const el = await page.$(selector);
-  if(el) await el.click({delay: 100})
+  if (el) await el.click({ delay: 100 });
 }
 
 async function getProducts(page) {
@@ -88,7 +88,6 @@ async function run() {
   } catch (error) {
     console.log("Automation error:", error);
   } finally {
-    // await new Promise((resolve) => setTimeout(resolve, 2000));
     await browser.close();
   }
 }
