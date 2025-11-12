@@ -1,0 +1,27 @@
+{
+  "name": "puppeteer-furniture-shop-scrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varspijoyan/puppeteer-furniture-shop-scrapper.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/varspijoyan/puppeteer-furniture-shop-scrapper/issues"
+  },
+  "homepage": "https://github.com/varspijoyan/puppeteer-furniture-shop-scrapper#readme",
+  "dependencies": {
+    "puppeteer": "^24.29.1"
+  },
+  "devDependencies": {
+    "dotenv": "^17.2.3"
+  }
+}
