@@ -12,7 +12,6 @@ async function clickOnLink(page, selector) {
   }, selector);
   const el = await page.$(selector);
   if(el) await el.click({delay: 100})
-//   await page.click(selector);
 }
 
 async function getProducts(page) {
